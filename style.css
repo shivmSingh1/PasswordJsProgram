@@ -1,16 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
-    color: white;
 }
 
-div {
-
-
-    /* height: 100%; */
+.center-text {
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
     color: RGB(20, 148, 20);
-    flex-direction: column;
 }
